@@ -10,7 +10,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-data_train = pd.read_csv("./train.csv")
+# data already converted to csv file
+data_train = pd.read_csv("./data/train/train.csv")
 
 data_train.columns= data_train.columns.str.replace(".underwritingdataclarity.clearfraud.clearfraudinquiry.", "")
 data_train.columns= data_train.columns.str.replace(".underwritingdataclarity.clearfraud.clearfraudidentityverification.", "")
