@@ -34,15 +34,14 @@ Refer to the "DATA" section for a detailed understanding of the provided dataset
 
 The `data.zip` file contains three folders:
 
-* **train:** Contains a single JSON file holding variables used for loan underwriting from MoneyLion's data provider. Each row represents an underwriting report.
+* **train:** Contains a single JSON file holding variables used for loan underwriting from MoneyLion's data provider. Each row represents an underwriting report.( the JSON file is already transformed into csv) 
 * **dictionaries:** Contains an Excel file with detailed descriptions of each underwriting variable.
-* **submission:** Contains a CSV file for you to make predictions. Fill the `submission.csv` with your predicted scores based on the provided data and submit it to the platform for evaluation.
 
 ## Project: Predicting Fraud Score (Using Colaboratory Notebook)
 
 This repository contains the Python code for a project that attempts to predict fraud scores using a machine learning approach.
 
-**Original Notebook:** https://colab.research.google.com/ (**Note:** This link points to the original notebook in Google Colaboratory and might not be publicly accessible without required permissions.)
+**Original Notebook:** [Notebook Link](https://colab.research.google.com/drive/1X7gbTNt1UC0pjr8NMq-45yZiqcBon7_A) (**Note:** This link points to the original notebook in Google Colaboratory and might not be publicly accessible without required permissions.)
 
 **Dependencies:**
 
@@ -56,14 +55,10 @@ This repository contains the Python code for a project that attempts to predict 
 * sklearn.ensemble (for Bagging and Random Forest Regressor models)
 * sklearn.model_selection (for GridSearchCV)
 
-**Data:**
-
-The code assumes a CSV file named "train.csv" located in the "./data/train/" directory. This file should contain the features used for training the model.
-
 **Code Description:**
 
 1. **Data Loading and Cleaning:**
-   * Loads the data from the JSON file using pandas.
+   * Loads the data from the csv file using pandas.
    * Cleans the column names.
    * Drops irrelevant columns and features with high missing values.
    * Handles missing values.
