@@ -41,7 +41,7 @@ The `data.zip` file contains three folders:
 
 This repository contains the Python code for a project that attempts to predict fraud scores using a machine learning approach.
 
-**Original Notebook:** [Notebook Link](https://colab.research.google.com/drive/1X7gbTNt1UC0pjr8NMq-45yZiqcBon7_A) (**Note:** This link points to the original notebook in Google Colaboratory and might not be publicly accessible without required permissions.)
+**Original Notebook:** [Notebook Link](https://colab.research.google.com/drive/1X7gbTNt1UC0pjr8NMq-45yZiqcBon7_A) 
 
 **Dependencies:**
 
